@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: airflow-scheduler
+spec:
+  replicas: {{ .Values.scheduler.replicaCount }}
+  selector:
+    matchLabels:
+      app: airflow-scheduler
+  template:
+    metadata:
+      labels:
+        app: airflow-scheduler
+    spec:
+      containers:
+        - name: scheduler
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          args: ["scheduler"]
+          env:
+            - name: AIRFLOW__DATABASE__SQL_ALCHEMY_CONN
+              valueFrom:
+                secretKeyRef:
+                  name: airflow-secrets
+                  key: sql-alchemy-conn
+            - name: AIRFLOW__CORE__FERNET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: airflow-secrets
+                  key: fernet-key

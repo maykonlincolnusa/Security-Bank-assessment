@@ -1,0 +1,73 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "trust-score.fullname" . }}
+  labels:
+    app: trust-score
+    release: stable
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: trust-score
+      release: stable
+  template:
+    metadata:
+      labels:
+        app: trust-score
+        release: stable
+    spec:
+      serviceAccountName: {{ include "trust-score.fullname" . }}
+      containers:
+        - name: trust-score
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - containerPort: 8000
+          env:
+            - name: SERVICE_DB_URL
+              value: {{ .Values.env.SERVICE_DB_URL | quote }}
+            - name: REDIS_URL
+              value: {{ .Values.env.REDIS_URL | quote }}
+            - name: MODEL_ONNX_PATH
+              value: {{ .Values.env.MODEL_ONNX_PATH | quote }}
+            - name: MODEL_FEATURES_PATH
+              value: {{ .Values.env.MODEL_FEATURES_PATH | quote }}
+            - name: JWT_ISSUER
+              value: {{ .Values.env.JWT_ISSUER | quote }}
+            - name: JWT_AUDIENCE
+              value: {{ .Values.env.JWT_AUDIENCE | quote }}
+            - name: RATE_LIMIT_PER_MINUTE
+              value: {{ .Values.env.RATE_LIMIT_PER_MINUTE | quote }}
+            - name: CACHE_TTL_SEC
+              value: {{ .Values.env.CACHE_TTL_SEC | quote }}
+            - name: ENFORCE_TLS
+              value: {{ .Values.env.ENFORCE_TLS | quote }}
+            - name: CORS_ORIGINS
+              value: {{ .Values.env.CORS_ORIGINS | quote }}
+            - name: AGENT_ALLOWED_IDS
+              value: {{ .Values.env.AGENT_ALLOWED_IDS | quote }}
+            - name: AGENT_SKILL_BLACKLIST
+              value: {{ .Values.env.AGENT_SKILL_BLACKLIST | quote }}
+            - name: AGENT_SKILL_ALLOWLIST
+              value: {{ .Values.env.AGENT_SKILL_ALLOWLIST | quote }}
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "trust-score.fullname" . }}
+                  key: JWT_SECRET
+            - name: AGENT_SIGNING_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "trust-score.fullname" . }}
+                  key: AGENT_SIGNING_SECRET
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+          livenessProbe:
+            httpGet:
+              path: /metrics
+              port: 8000
+          readinessProbe:
+            httpGet:
+              path: /metrics
+              port: 8000

@@ -1,0 +1,21 @@
+image:
+  repository: apache/airflow
+  tag: 2.8.4
+
+postgres:
+  host: "rds"
+  user: "airflow"
+  password: ""
+  db: "airflow"
+
+web:
+  replicaCount: 1
+  servicePort: 8080
+
+scheduler:
+  replicaCount: 1
+
+secrets:
+  create: true
+  sqlAlchemyConn: ""
+  fernetKey: ""

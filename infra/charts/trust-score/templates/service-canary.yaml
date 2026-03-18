@@ -1,0 +1,14 @@
+{{- if .Values.canary.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "trust-score.fullname" . }}-canary
+spec:
+  type: {{ .Values.service.type }}
+  selector:
+    app: trust-score
+    release: canary
+  ports:
+    - port: {{ .Values.service.canaryPort }}
+      targetPort: 8000
+{{- end }}

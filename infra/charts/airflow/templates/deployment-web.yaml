@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: airflow-web
+spec:
+  replicas: {{ .Values.web.replicaCount }}
+  selector:
+    matchLabels:
+      app: airflow-web
+  template:
+    metadata:
+      labels:
+        app: airflow-web
+    spec:
+      containers:
+        - name: webserver
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          args: ["webserver"]
+          env:
+            - name: AIRFLOW__DATABASE__SQL_ALCHEMY_CONN
+              valueFrom:
+                secretKeyRef:
+                  name: airflow-secrets
+                  key: sql-alchemy-conn
+            - name: AIRFLOW__CORE__FERNET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: airflow-secrets
+                  key: fernet-key
+          ports:
+            - containerPort: 8080

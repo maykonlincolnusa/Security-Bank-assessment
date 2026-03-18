@@ -1,0 +1,45 @@
+name: CD-Simulated
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: trust-bank-system/api-service
+
+jobs:
+  deploy-simulated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build image
+        run: |
+          docker build -t $REGISTRY/${{ github.repository_owner }}/$IMAGE_NAME:${{ github.sha }} ./api_service
+
+      - name: Push placeholder log
+        run: |
+          echo "[cd] Registry push simulated"
+          echo "[cd] Target image: $REGISTRY/${{ github.repository_owner }}/$IMAGE_NAME:${{ github.sha }}"
+
+      - name: Deploy placeholder log
+        run: |
+          python scripts/mock_deploy.py
+
+      - name: Canary rollout placeholder
+        run: |
+          echo "[cd] helm upgrade --install trust-score infra/charts/trust-score --set canary.enabled=true"
+          echo "[cd] smoke tests passed"
+          echo "[cd] promoted canary to stable"

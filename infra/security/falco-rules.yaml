@@ -1,0 +1,11 @@
+- rule: Detect shell in container
+  desc: Detect interactive shell started in container
+  condition: container and proc.name in (bash, sh, zsh)
+  output: "Shell in container (user=%user.name container=%container.id image=%container.image.repository)"
+  priority: WARNING
+
+- rule: Write below etc
+  desc: Detect write to /etc in container
+  condition: container and fd.name startswith /etc and evt.type in (open, openat, creat, truncate)
+  output: "Write below /etc (user=%user.name container=%container.id file=%fd.name)"
+  priority: WARNING

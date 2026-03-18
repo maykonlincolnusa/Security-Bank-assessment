@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  dashboard:
+    build:
+      context: ..
+      dockerfile: dashboard/Dockerfile
+    environment:
+      TRUST_SCORE_URL: "http://trust-score-service:8000"
+      TRUST_SCORE_TOKEN: ""
+      DEMO_DATA_PATH: "/app/dashboard/data/demo_trust_scores.csv"
+      DEMO_EXPLANATION_PATH: "/app/dashboard/data/demo_explanations.csv"
+    ports:
+      - "8501:8501"

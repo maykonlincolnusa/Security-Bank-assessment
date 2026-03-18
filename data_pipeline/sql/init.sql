@@ -1,0 +1,10 @@
+CREATE SCHEMA IF NOT EXISTS raw;
+CREATE SCHEMA IF NOT EXISTS staging;
+CREATE SCHEMA IF NOT EXISTS curated;
+CREATE SCHEMA IF NOT EXISTS metadata;
+
+CREATE TABLE IF NOT EXISTS metadata.etl_checkpoints (
+    source_name VARCHAR(128) PRIMARY KEY,
+    last_cursor VARCHAR(128),
+    updated_at TIMESTAMP NOT NULL
+);

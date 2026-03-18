@@ -1,0 +1,4 @@
+apiVersion: v2
+name: trust-score
+version: 0.1.0
+description: Trust Score FastAPI service

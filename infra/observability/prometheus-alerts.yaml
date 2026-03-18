@@ -1,0 +1,16 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: trust-score-alerts
+  namespace: observability
+spec:
+  groups:
+    - name: trust-score
+      rules:
+        - alert: TrustScoreHighErrorRate
+          expr: sum(rate(http_requests_total{status=~"5.."}[5m])) > 0.1
+          for: 10m
+          labels:
+            severity: high
+          annotations:
+            summary: High error rate on Trust Score service

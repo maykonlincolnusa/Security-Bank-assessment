@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Data / artifacts
+*.db
+*.sqlite
+*.sqlite3
+models/output/
+mlruns/
+artifacts/
+
+# Logs
+*.log
+logs/
+
+# Docker
+*.pid
+.docker/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

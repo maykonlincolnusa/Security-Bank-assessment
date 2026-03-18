@@ -1,0 +1,51 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: service
+      POSTGRES_PASSWORD: service
+      POSTGRES_DB: service
+    ports:
+      - "5433:5432"
+    volumes:
+      - service-postgres:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  trust-score-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      SERVICE_DB_URL: postgresql+asyncpg://service:service@postgres:5432/service
+      REDIS_URL: redis://redis:6379/0
+      MODEL_ONNX_PATH: /app/models/model.onnx
+      MODEL_FEATURES_PATH: /app/models/model_features.json
+      JWT_SECRET: ${JWT_SECRET:-change-me-local}
+      JWT_ISSUER: trust-score-service
+      JWT_AUDIENCE: trust-score-clients
+      RATE_LIMIT_PER_MINUTE: 60
+      CACHE_TTL_SEC: 300
+      ENFORCE_TLS: "false"
+      CORS_ORIGINS: http://localhost:3000
+      AGENT_SIGNING_SECRET: ${AGENT_SIGNING_SECRET:-change-me-local}
+      AGENT_ALLOWED_IDS: agent-001
+      AGENT_SKILL_BLACKLIST: skill-dangerous-001
+      AGENT_SKILL_ALLOWLIST: trust-score-skill
+    volumes:
+      - ../models/output/model.onnx:/app/models/model.onnx:ro
+      - ../models/output/model_features.json:/app/models/model_features.json:ro
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - redis
+
+volumes:
+  service-postgres:

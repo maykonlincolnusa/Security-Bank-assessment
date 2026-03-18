@@ -1,0 +1,27 @@
+{{- if and .Values.ingress.enabled .Values.canary.enabled }}
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ include "trust-score.fullname" . }}-canary
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/canary: "true"
+    nginx.ingress.kubernetes.io/canary-weight: "{{ .Values.canary.weight }}"
+spec:
+  ingressClassName: {{ .Values.ingress.className }}
+  rules:
+    {{- range .Values.ingress.hosts }}
+    - host: {{ .host }}
+      http:
+        paths:
+          {{- range .paths }}
+          - path: {{ .path }}
+            pathType: {{ .pathType }}
+            backend:
+              service:
+                name: {{ include "trust-score.fullname" $ }}-canary
+                port:
+                  number: {{ $.Values.service.canaryPort }}
+          {{- end }}
+    {{- end }}
+{{- end }}

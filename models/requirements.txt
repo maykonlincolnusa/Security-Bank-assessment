@@ -1,17 +1,32 @@
-# Core
+﻿# Core
 pandas==2.2.3
 numpy==2.1.1
 scikit-learn==1.5.2
 joblib==1.4.2
+matplotlib==3.9.2
+seaborn==0.13.2
 
-# Optional models
+# Baselines and boosting
 xgboost==2.1.1
+lightgbm==4.5.0
+catboost==1.2.7
+
+# Optional advanced tabular
+pytorch-tabnet==4.1.0
+
+# Deep learning and NLP
 torch==2.4.1
+transformers==4.44.2
 prophet==1.1.5
 
-# Explainability and reporting
+# Explainability
 shap==0.46.0
+lime==0.2.0.1
+
+# Tracking and optimization
 mlflow==2.16.0
+optuna==4.0.0
+evidently==0.4.35
 
 # Export
 skl2onnx==1.16.0

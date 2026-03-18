@@ -21,6 +21,7 @@ def main():
     print(prophet_or_fallback.tail())
     print("LSTM/fallback forecast:")
     print(lstm_forecast.tail())
+    print("TFT implementation status: nao especificado (placeholder para ambiente com dataset multimodal maior).")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,34 @@
+﻿stages:
+  build_dataset:
+    cmd: python -m models.scripts.build_dataset
+    deps:
+      - models/scripts/build_dataset.py
+      - models/features.py
+      - models/synthetic.py
+    outs:
+      - models/output/training_dataset.csv
+
+  train:
+    cmd: python -m models.train --dataset-path models/output/training_dataset.csv --output-dir models/output
+    deps:
+      - models/train.py
+      - models/preprocess.py
+      - models/metrics.py
+      - models/model_zoo.py
+      - models/output/training_dataset.csv
+    outs:
+      - models/output/best_model.joblib
+      - models/output/model_comparison.csv
+      - models/output/report.html
+
+  evaluate:
+    cmd: python -m models.evaluate --model-path models/output/best_model.joblib --dataset-path models/output/training_dataset.csv --output-dir models/output
+    deps:
+      - models/evaluate.py
+      - models/ood.py
+      - models/robustness.py
+      - models/output/best_model.joblib
+      - models/output/training_dataset.csv
+    outs:
+      - models/output/evaluation_summary.json
+      - models/output/evaluation_predictions.csv

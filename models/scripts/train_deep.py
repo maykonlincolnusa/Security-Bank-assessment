@@ -1,18 +1,30 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
-from models.config import load_settings
+import json
+from pathlib import Path
+
+from models.multimodal import MultimodalConfig, train_multimodal_model
 from models.synthetic import generate_synthetic_dataset
-from models.train_pytorch import TorchConfig, train_torch_grouped
 
 
-def main():
-    settings = load_settings()
-    df = generate_synthetic_dataset(rows=600, seed=settings.random_seed)
+def main() -> None:
+    out_dir = Path("models/output")
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    df = generate_synthetic_dataset(rows=500)
     X = df.drop(columns=["trust_label"])
     y = df["trust_label"]
 
-    _, avg_prob = train_torch_grouped(X, y, TorchConfig())
-    print(f"Deep model trained. Mean predicted probability: {avg_prob:.4f}")
+    model, avg_prob = train_multimodal_model(X, y, MultimodalConfig())
+
+    payload = {
+        "status": "ok",
+        "avg_predicted_probability": avg_prob,
+        "note": "Modelo deep multimodal treinado com fallback de embeddings quando necessario.",
+    }
+
+    (out_dir / "deep_training_summary.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    print(json.dumps(payload, indent=2))
 
 
 if __name__ == "__main__":

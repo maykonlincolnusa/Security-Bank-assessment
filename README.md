@@ -1,105 +1,113 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f2e,50:1a237e,100:1565c0&height=220&section=header&text=Trust%20Bank%20System&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Open-Source%20Trust%20Score%20Platform%20for%20Financial%20Institutions&descAlignY=60&descSize=18&animation=fadeIn" alt="Trust Bank System Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020818,30:0a1628,65:0d2d6e,100:1565c0&height=260&section=header&text=Trust%20Bank%20System&fontSize=62&fontColor=ffffff&fontAlignY=42&desc=Open-Source%20Trust%20Score%20Platform%20for%20Financial%20Institutions&descAlignY=62&descSize=19&animation=fadeIn" />
 </p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=42A5F5&center=true&vCenter=true&width=760&lines=Trust+Score+Engine+for+Financial+Institutions;ETL+%E2%86%92+ML+%E2%86%92+API+%E2%86%92+Dashboard+%E2%86%92+Production;LGPD+%2F+GDPR+Compliance+Built-In;STRIDE+Threat+Model+%7C+Zero-Trust+Ready;XGBoost+%2B+SHAP+%2B+ONNX+%7C+MLflow+Tracking;Open+Source+%7C+Enterprise+Grade" />
+</p>
+
+<br/>
 
 <p align="center">
   <a href="https://github.com/maykonlincolnusa/Security-Bank-assessment/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/maykonlincolnusa/Security-Bank-assessment/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&color=1565c0&label=CI%2FCD" alt="CI/CD"/>
+    <img src="https://img.shields.io/github/actions/workflow/status/maykonlincolnusa/Security-Bank-assessment/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI%2FCD&labelColor=0d1b4b"/>
   </a>
-  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Apache%20Airflow-2.9-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MLflow-2.x-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/Apache_Airflow-2.9-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/MLflow-2.x-0194E2?style=for-the-badge&logo=mlflow&logoColor=white&labelColor=0d1b4b"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-15-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-7-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MinIO-S3%20Compatible-C72E49?style=for-the-badge&logo=minio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Terraform-AWS%2FEKS-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LGPD%2FGDPR-Compliant-00C853?style=for-the-badge&logo=shield&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-15-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/Redis-7-DC382D?style=for-the-badge&logo=redis&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/MinIO-S3_Compatible-C72E49?style=for-the-badge&logo=minio&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/Terraform-AWS%2FEKS-7B42BC?style=for-the-badge&logo=terraform&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/LGPD%2FGDPR-Compliant-00C853?style=for-the-badge&labelColor=0d1b4b"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-FFD600?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ONNX-Model%20Export-FF6F00?style=for-the-badge&logo=onnx&logoColor=white"/>
-  <img src="https://img.shields.io/badge/STRIDE-Threat%20Model-B71C1C?style=for-the-badge&logo=security&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ONNX-Model_Export-FF6F00?style=for-the-badge&logo=onnx&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/STRIDE-Threat_Model-B71C1C?style=for-the-badge&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/XGBoost-Ensemble_ML-FF6600?style=for-the-badge&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/SHAP-Explainability-FF8F00?style=for-the-badge&labelColor=0d1b4b"/>
+  <img src="https://img.shields.io/badge/License-MIT-FFD600?style=for-the-badge&labelColor=0d1b4b"/>
 </p>
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=42A5F5&center=true&vCenter=true&width=700&lines=Trust+Score+Engine+for+Financial+Institutions;ETL+%E2%86%92+ML+%E2%86%92+API+%E2%86%92+Dashboard+%E2%86%92+Production;LGPD+%2F+GDPR+Compliance+Built-In;STRIDE+Threat+Model+%7C+Zero-Trust+Ready;Open+Source+%7C+Enterprise+Grade" alt="Typing SVG"/>
-  </a>
-</p>
+<br/>
+
+> [!WARNING]
+> **Legal Disclaimer:** This system is a **decision-support tool** only. It does not replace human analysis, legal counsel, or regulatory decisions. Trust Scores must be used as complementary input to processes supervised by qualified professionals.
+
+<br/>
+
+## 📑 Table of Contents
+
+| | Section |
+|---|---|
+| 🏦 | [Overview](#-overview) |
+| 🏗️ | [System Architecture](#%EF%B8%8F-system-architecture) |
+| ⚡ | [Data Flow](#-data-flow) |
+| 🛠️ | [Tech Stack](#%EF%B8%8F-tech-stack) |
+| 📂 | [Monorepo Structure](#-monorepo-structure) |
+| 🚀 | [Quick Start](#-quick-start) |
+| 🔄 | [Module Execution](#-module-execution) |
+| 🤖 | [ML Models](#-ml-models) |
+| 📡 | [Scoring API](#-scoring-api) |
+| ☁️ | [Cloud Infrastructure](#%EF%B8%8F-cloud-infrastructure) |
+| 🔒 | [Security & Compliance](#-security--compliance) |
+| 🧪 | [Tests & Quality](#-tests--quality) |
+| 🤝 | [Contributing](#-contributing) |
+| 📄 | [License](#-license) |
+
+<br/>
 
 ---
 
-> ⚠️ **Aviso Legal:** Este sistema é **auxílio de decisão**. Não substitui análise humana, parecer jurídico ou decisões regulatórias. Utilize os scores como insumo complementar a processos supervisionados por profissionais qualificados.
+## 🏦 Overview
 
----
-
-## 📑 Índice
-
-- [Visão Geral](#-visão-geral)
-- [Arquitetura do Sistema](#-arquitetura-do-sistema)
-- [Stack Tecnológico](#-stack-tecnológico)
-- [Estrutura do Monorepo](#-estrutura-do-monorepo)
-- [Quick Start](#-quick-start)
-- [Execução por Módulo](#-execução-por-módulo)
-- [Pipeline ETL](#-pipeline-etl)
-- [Modelos de ML](#-modelos-de-ml)
-- [API de Scoring](#-api-de-scoring)
-- [Dashboard Analítico](#-dashboard-analítico)
-- [Infraestrutura Cloud](#-infraestrutura-cloud)
-- [Segurança & Compliance](#-segurança--compliance)
-- [Testes & Qualidade](#-testes--qualidade)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
-
----
-
-## 🏦 Visão Geral
-
-O **Trust Bank System** é uma plataforma open-source de ponta a ponta para geração, servição e explicação de **Trust Scores** de instituições financeiras. Ele integra coleta de dados públicos e APIs autorizadas, pipeline ETL orquestrado por Airflow, treinamento e exportação de modelos de ML (scikit-learn, XGBoost, ONNX), uma API REST de alto desempenho com autenticação JWT/OAuth2, e um dashboard analítico interativo — tudo implantável em cloud (AWS/EKS) via Terraform e Helm.
+**Trust Bank System** is a production-grade, end-to-end open-source platform for generating, serving, and explaining **Trust Scores** for financial institutions. It integrates public data collection, Airflow-orchestrated ETL pipelines, ML model training and export (scikit-learn, XGBoost, ONNX), a high-performance REST API with JWT/OAuth2 authentication, and an interactive analytics dashboard — fully deployable on cloud (AWS/EKS) via Terraform and Helm.
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                        TRUST BANK SYSTEM · v0.1.0                          ║
+║                       TRUST BANK SYSTEM · v0.1.0                           ║
+╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
-║   Fontes Públicas ──► ETL Airflow ──► Postgres / MinIO ──► ML Training      ║
-║         └──────────────────────────────────────────────────► ONNX Model     ║
+║   Public Sources ──► Airflow ETL ──► Postgres / MinIO ──► ML Training       ║
+║        └─────────────────────────────────────────────────► ONNX Model       ║
 ║                                                                  │           ║
-║   Agentes AI ◄── API FastAPI (JWT · RBAC · Redis) ◄─────────────┘           ║
-║   Dashboard ◄───────────────────┘                                            ║
+║   AI Agents ◄── FastAPI (JWT · RBAC · Redis Cache) ◄────────────┘           ║
+║   Dashboard ◄──────────────────┘                                             ║
 ║                                                                              ║
-║   Infraestrutura: Terraform · EKS · Helm · GitHub Actions                   ║
-║   Compliance: LGPD · GDPR · STRIDE · Audit Logs · Bandit                    ║
+║   Infrastructure: Terraform · EKS · Helm · GitHub Actions                   ║
+║   Compliance:     LGPD · GDPR · STRIDE · Audit Logs · Bandit · Safety       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-### ✨ Diferenciais
+### ✨ Key Features
 
-| Característica | Detalhe |
+| Feature | Detail |
 |---|---|
-| 🔄 **Pipeline ETL Completo** | Airflow DAGs, camadas raw/staging/curated, MinIO/S3 |
-| 🤖 **ML Explicável** | XGBoost + SHAP + ONNX export + MLflow tracking |
-| ⚡ **API Production-Grade** | FastAPI async, JWT/OAuth2, RBAC, Redis cache, Prometheus |
-| 📊 **Dashboard Analítico** | Streamlit com visualizações de score e explicabilidade |
+| 🔄 **Full ETL Pipeline** | Airflow DAGs, raw/staging/curated layers, MinIO/S3 |
+| 🤖 **Explainable ML** | XGBoost + SHAP + ONNX export + MLflow tracking |
+| ⚡ **Production-Grade API** | FastAPI async, JWT/OAuth2, RBAC, Redis cache, Prometheus |
+| 📊 **Analytics Dashboard** | Streamlit with score visualization and explainability |
 | 🔒 **Security-First** | STRIDE, LGPD/GDPR, prompt injection tests, audit logs |
 | ☁️ **Cloud-Native** | Terraform (VPC/IAM/RDS/S3/EKS) + Helm + CI/CD |
 
+<br/>
+
 ---
 
-## 🏗 Arquitetura do Sistema
+## 🏗️ System Architecture
 
 ```mermaid
 flowchart LR
-    A["🌐 Fontes Públicas\n& APIs Autorizadas"] --> B
+    A["🌐 Public Sources\n& Authorized APIs"] --> B
 
     subgraph ETL ["🔄 Data Pipeline · Airflow"]
-        B["ETL Ingestion\nDAGs"] --> C1
-        B --> C2
+        B["ETL Ingestion\nDAGs"] --> C1 & C2
         C1["📦 MinIO / S3\nRaw Files"]
         C2[("🗄️ Postgres\nraw → staging → curated")]
     end
@@ -121,102 +129,134 @@ flowchart LR
     end
 
     subgraph Infra ["☁️ Infra · Terraform + Helm"]
-        J["VPC / IAM\nRDS / S3 / EKS"] --> ETL
-        J --> API
+        J["VPC / IAM\nRDS / S3 / EKS"] --> ETL & API
     end
 
-    style ETL fill:#0d1b4b,stroke:#42A5F5,color:#ffffff
-    style ML fill:#0d1b4b,stroke:#42A5F5,color:#ffffff
-    style API fill:#0d1b4b,stroke:#42A5F5,color:#ffffff
-    style Consumers fill:#0d1b4b,stroke:#42A5F5,color:#ffffff
-    style Infra fill:#1a0d2e,stroke:#7B42BC,color:#ffffff
+    style ETL       fill:#0a1628,stroke:#42A5F5,color:#ffffff
+    style ML        fill:#0a1628,stroke:#42A5F5,color:#ffffff
+    style API       fill:#0a1628,stroke:#42A5F5,color:#ffffff
+    style Consumers fill:#0a1628,stroke:#42A5F5,color:#ffffff
+    style Infra     fill:#160a2e,stroke:#7B42BC,color:#ffffff
 ```
+
+<br/>
 
 ---
 
-## 🛠 Stack Tecnológico
+## ⚡ Data Flow
+
+```
+ 🌐 Public          🔄 Airflow         🗄️ Postgres        🤖 XGBoost
+  Sources    ──►    ETL DAGs    ──►   raw→staging    ──►   Training
+                       │               →curated             │
+                       ▼                                     ▼
+                  📦 MinIO / S3                        ONNX Export
+                   Raw Files                           + SHAP Artifacts
+                                                             │
+ 📊 Dashboard  ◄── 🔌 WebSocket   ◄── ⚡ FastAPI API ◄──────┘
+ 🤖 AI Agents  ◄── Redis Cache        JWT · RBAC
+                                      Prometheus
+```
+
+| Layer | Technology | Role |
+|---|---|---|
+| Ingestion | Apache Airflow DAGs | Orchestrate ETL jobs |
+| Storage | PostgreSQL 15 + MinIO | Structured + object storage |
+| Training | XGBoost · scikit-learn · MLflow | Model training & tracking |
+| Export | ONNX Runtime + SHAP | Inference + explainability |
+| API | FastAPI + Redis | Scoring endpoint + caching |
+| Dashboard | Streamlit | Visual analytics |
+| Infra | Terraform + Helm + EKS | Cloud deployment |
+
+<br/>
+
+---
+
+## 🛠️ Tech Stack
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║  CAMADA             TECNOLOGIAS                                      ║
+║  LAYER                TECHNOLOGIES                                   ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  Data Engineering   Python · Apache Airflow · pandas · SQLAlchemy   ║
-║                     PostgreSQL 15 · MinIO / AWS S3                  ║
+║  Data Engineering     Python · Apache Airflow · pandas · SQLAlchemy  ║
+║                       PostgreSQL 15 · MinIO / AWS S3                ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  Machine Learning   scikit-learn · XGBoost · PyTorch (opcional)     ║
-║                     Prophet / LSTM · SHAP · MLflow · ONNX Runtime   ║
+║  Machine Learning     scikit-learn · XGBoost · PyTorch (optional)   ║
+║                       Prophet / LSTM · SHAP · MLflow · ONNX Runtime ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  API & Services     FastAPI · Uvicorn · Redis 7 · OAuth2 Bearer     ║
-║                     JWT · RBAC · Prometheus Metrics                  ║
+║  API & Services       FastAPI · Uvicorn · Redis 7 · OAuth2 Bearer   ║
+║                       JWT · RBAC · Prometheus Metrics               ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  Dashboard          Streamlit · Plotly · pandas                     ║
+║  Dashboard            Streamlit · Plotly · pandas                   ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  Infra & DevOps     Terraform · Helm · GitHub Actions · Docker      ║
-║                     AWS VPC · IAM · RDS · S3 · EKS                  ║
+║  Infra & DevOps       Terraform · Helm · GitHub Actions · Docker    ║
+║                       AWS VPC · IAM · RDS · S3 · EKS                ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  Security           STRIDE · LGPD / GDPR · Bandit · Safety          ║
-║                     Audit Logs · Prompt Injection Tests              ║
+║  Security             STRIDE · LGPD / GDPR · Bandit · Safety        ║
+║                       Audit Logs · Prompt Injection Tests           ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
+<br/>
+
 ---
 
-## 📂 Estrutura do Monorepo
+## 📂 Monorepo Structure
 
 <details>
-<summary><b>🗂️ Expandir estrutura completa</b></summary>
+<summary><b>🗂️ Expand full structure</b></summary>
 
 ```
 Security-Bank-assessment/
 │
 ├── 🔄 data_pipeline/          # ETL · Apache Airflow · DAGs · SQL
-│   ├── dags/                  # Definições de DAGs Airflow
-│   ├── src/etl/               # Módulos de ingestão e transformação
-│   ├── sql/init.sql           # Inicialização das camadas Postgres
-│   ├── data/                  # Dados locais de desenvolvimento
+│   ├── dags/                  # Airflow DAG definitions
+│   ├── src/etl/               # Ingestion & transformation modules
+│   ├── sql/init.sql           # Postgres layer initialization
+│   ├── data/                  # Local development data
 │   ├── requirements.txt
 │   └── Dockerfile
 │
-├── 🤖 models/                 # Treinamento · Avaliação · Export ONNX
-│   ├── scripts/train_all.py   # Entry-point de treinamento
-│   ├── export_model.py        # Export para ONNX + feature metadata
-│   ├── output/                # Artefatos: model.onnx, features, SHAP
-│   ├── notebooks/             # Exploração e experimentos (Jupyter)
+├── 🤖 models/                 # Training · Evaluation · ONNX Export
+│   ├── scripts/train_all.py   # Training entry-point
+│   ├── export_model.py        # ONNX export + feature metadata
+│   ├── output/                # Artifacts: model.onnx, features, SHAP
+│   ├── notebooks/             # Exploration & experiments (Jupyter)
 │   └── requirements.txt
 │
 ├── ⚡ api_service/             # FastAPI · JWT/OAuth2 · Redis · RBAC
 │   ├── app/
-│   │   ├── main.py            # Entry-point FastAPI
-│   │   ├── routers/           # Endpoints de scoring e admin
-│   │   ├── services/          # Lógica de negócio e inferência ONNX
-│   │   └── models/            # Schemas Pydantic
+│   │   ├── main.py            # FastAPI entry-point
+│   │   ├── routers/           # Scoring & admin endpoints
+│   │   ├── services/          # Business logic & ONNX inference
+│   │   └── models/            # Pydantic schemas
 │   ├── sql/init.sql
 │   ├── requirements.txt
 │   └── Dockerfile
 │
-├── 📊 dashboard/              # Streamlit · Visualização de scores
-│   ├── app.py                 # Entry-point Streamlit
-│   ├── data/                  # Demo CSVs de scores e explicações
+├── 📊 dashboard/              # Streamlit · Score visualization
+│   ├── app.py                 # Streamlit entry-point
+│   ├── data/                  # Demo CSVs: scores & explanations
 │   ├── requirements.txt
 │   └── Dockerfile
 │
-├── ☁️ infra/                  # Terraform · Helm · IaC
+├── ☁️  infra/                  # Terraform · Helm · IaC
 │   ├── terraform/             # VPC, IAM, RDS, S3, EKS modules
-│   └── helm/                  # Chart values por ambiente
+│   └── helm/                  # Chart values per environment
 │
-├── 🔒 security/               # Threat Model · Controles LGPD/GDPR
-│   └── docs/threat_model.md   # STRIDE + controles mapeados
+├── 🔒 security/               # Threat Model · LGPD/GDPR controls
+│   └── docs/threat_model.md   # STRIDE + mapped controls
 │
-├── 🧪 tests/                  # pytest · unitários e integração
-├── 📄 docs/                   # Documentação técnica e checklists
-├── 🔧 scripts/                # Scripts utilitários de operação
+├── 🧪 tests/                  # pytest · unit & integration
+├── 📄 docs/                   # Technical docs & checklists
+├── 🔧 scripts/                # Operational utility scripts
 ├── .github/workflows/         # CI/CD GitHub Actions
 │
-├── docker-compose.yml         # Stack local completa
-├── Makefile                   # Atalhos: lint, test, build, deploy
-├── conftest.py                # Fixtures globais pytest
-├── pytest.ini                 # Configuração de testes
-├── .env.example               # Template de variáveis de ambiente
+├── docker-compose.yml         # Full local stack
+├── Makefile                   # Shortcuts: lint, test, build, deploy
+├── conftest.py                # Global pytest fixtures
+├── pytest.ini
+├── .env.example
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 └── LICENSE (MIT)
@@ -224,21 +264,13 @@ Security-Bank-assessment/
 
 </details>
 
+<br/>
+
 ---
 
 ## 🚀 Quick Start
 
-### Pré-requisitos
-
-```bash
-# Versões recomendadas
-Docker Desktop  >= 24.x
-docker compose  >= 2.x
-Python          >= 3.11
-make            (GNU Make)
-```
-
-### ⚡ Setup em 3 Passos
+**Prerequisites:** Docker >= 24 · docker compose >= 2 · Python >= 3.11 · GNU Make
 
 <table>
 <tr>
@@ -249,15 +281,14 @@ make            (GNU Make)
 <td>
 
 ```bash
-# 1. Clone o repositório
+# 1. Clone
 git clone https://github.com/maykonlincolnusa/Security-Bank-assessment.git
 cd Security-Bank-assessment
 
-# 2. Configure variáveis de ambiente
+# 2. Environment variables
 cp .env.example .env
-# Edite .env conforme necessário
 
-# 3. Suba a stack completa
+# 3. Spin up full stack
 docker compose up -d --build
 ```
 
@@ -265,15 +296,14 @@ docker compose up -d --build
 <td>
 
 ```powershell
-# 1. Clone o repositório
+# 1. Clone
 git clone https://github.com/maykonlincolnusa/Security-Bank-assessment.git
 cd Security-Bank-assessment
 
-# 2. Configure variáveis de ambiente
+# 2. Environment variables
 Copy-Item .env.example .env
-# Edite .env conforme necessário
 
-# 3. Suba a stack completa
+# 3. Spin up full stack
 docker compose up -d --build
 ```
 
@@ -281,11 +311,11 @@ docker compose up -d --build
 </tr>
 </table>
 
-### 🌐 Serviços Disponíveis
+### 🌐 Available Services
 
-| Serviço | URL | Credenciais Padrão |
+| Service | URL | Default Credentials |
 |---|---|---|
-| 📡 **API Swagger** | http://localhost:8000/docs | JWT token via `/auth/token` |
+| 📡 **API Swagger** | http://localhost:8000/docs | JWT via `/auth/token` |
 | 📊 **Dashboard** | http://localhost:8501 | — |
 | 🔄 **Airflow UI** | http://localhost:8080 | `admin / admin` |
 | 🗄️ **MinIO Console** | http://localhost:9001 | `minioadmin / minioadmin` |
@@ -293,152 +323,235 @@ docker compose up -d --build
 | 🗃️ **Postgres Service** | `localhost:5433` | `service / service` |
 | 📈 **Prometheus Metrics** | http://localhost:8000/metrics | — |
 
+<br/>
+
 ---
 
-## 🔄 Execução por Módulo
+## 🔄 Module Execution
 
 <details>
-<summary><b>📦 Pipeline ETL</b></summary>
+<summary><b>📦 ETL Pipeline</b></summary>
 
 ```bash
-# Instalar dependências
+# Install dependencies
 python -m pip install -r data_pipeline/requirements.txt
 
-# Executar pipeline diário via CLI
+# Run daily pipeline via CLI
 PYTHONPATH=data_pipeline/src python -m etl.cli run-daily
-
-# Ou via Airflow (após docker compose up)
-# Acesse http://localhost:8080 e ative as DAGs desejadas
 ```
 
-**Camadas do Data Lake:**
+**Data Lake Layers:**
 
-| Camada | Descrição |
+| Layer | Description |
 |---|---|
-| `raw` | Dados brutos ingeridos sem transformação |
-| `staging` | Limpeza, padronização e tipagem |
-| `curated` | Features prontas para ML e API |
+| `raw` | Raw ingested data — no transformation |
+| `staging` | Cleaned, standardized, typed |
+| `curated` | ML-ready features for API and training |
 
 </details>
 
 <details>
-<summary><b>🤖 Treinamento de Modelos</b></summary>
+<summary><b>🤖 Model Training</b></summary>
 
 ```bash
-# Instalar dependências
+# Install dependencies
 python -m pip install -r models/requirements.txt
 
-# Treinar todos os modelos
+# Train all models
 python -m models.scripts.train_all
 
-# Exportar para ONNX (com metadata de features e SHAP)
+# Export to ONNX (with feature metadata + SHAP)
 python models/export_model.py \
   --model-path models/output/best_model.joblib \
   --sample-csv models/output/training_dataset.csv \
   --output-dir models/output
-
-# Artefatos gerados em models/output/
-# ├── model.onnx
-# ├── model_features.json
-# └── feature_importance.json
 ```
 
-**Algoritmos Suportados:**
+**Generated artifacts in `models/output/`:**
+- `model.onnx` — optimized inference model
+- `model_features.json` — feature schema
+- `feature_importance.json` — SHAP values
 
 ```
 ╔══════════════════════════════════════════════════════════╗
-║  Modelo          Framework      Uso                      ║
+║  Model           Framework      Purpose                  ║
 ╠══════════════════════════════════════════════════════════╣
-║  XGBoost         scikit-learn   Score principal          ║
+║  XGBoost         scikit-learn   Primary trust score      ║
 ║  Random Forest   scikit-learn   Ensemble / fallback      ║
-║  PyTorch MLP     PyTorch        Opcional / experimental  ║
-║  Prophet/LSTM    statsmodels    Séries temporais         ║
-║  SHAP            SHAP lib       Explicabilidade          ║
+║  PyTorch MLP     PyTorch        Optional / experimental  ║
+║  Prophet / LSTM  statsmodels    Time-series analysis     ║
+║  SHAP            SHAP lib       Explainability           ║
 ╚══════════════════════════════════════════════════════════╝
 ```
 
 </details>
 
 <details>
-<summary><b>⚡ API de Score</b></summary>
+<summary><b>⚡ Scoring API</b></summary>
 
 ```bash
-# Instalar dependências
+# Install dependencies
 python -m pip install -r api_service/requirements.txt
 
-# Iniciar servidor de desenvolvimento
+# Start dev server
 uvicorn api_service.app.main:app \
-  --reload \
-  --host 0.0.0.0 \
-  --port 8000
-
-# Exemplo de requisição de score
-curl -X POST http://localhost:8000/v1/score \
-  -H "Authorization: Bearer <JWT_TOKEN>" \
-  -H "Content-Type: application/json" \
-  -d '{"institution_id": "BR_BANK_001", "reference_date": "2025-12-31"}'
+  --reload --host 0.0.0.0 --port 8000
 ```
 
-**Endpoints Principais:**
+**Main Endpoints:**
 
-| Método | Endpoint | Descrição |
+| Method | Endpoint | Description |
 |---|---|---|
-| `POST` | `/auth/token` | Obter JWT via OAuth2 |
-| `POST` | `/v1/score` | Calcular Trust Score |
-| `GET` | `/v1/score/{id}` | Consultar score por ID |
-| `GET` | `/v1/explanation/{id}` | Explicabilidade SHAP |
+| `POST` | `/auth/token` | Obtain JWT via OAuth2 |
+| `POST` | `/v1/score` | Compute Trust Score |
+| `GET` | `/v1/score/{id}` | Query score by ID |
+| `GET` | `/v1/explanation/{id}` | SHAP explainability |
 | `GET` | `/health` | Health check |
-| `GET` | `/metrics` | Métricas Prometheus |
+| `GET` | `/metrics` | Prometheus metrics |
+
+```bash
+# Example scoring request
+curl -X POST http://localhost:8000/v1/score \
+  -H "Authorization: Bearer <JWT_TOKEN>"   \
+  -H "Content-Type: application/json"      \
+  -d '{"institution_id": "BR_BANK_001", "reference_date": "2025-12-31"}'
+```
 
 </details>
 
 <details>
-<summary><b>📊 Dashboard Analítico</b></summary>
+<summary><b>📊 Analytics Dashboard</b></summary>
 
 ```bash
-# Instalar dependências
+# Install dependencies
 python -m pip install -r dashboard/requirements.txt
 
-# Iniciar Streamlit
+# Start Streamlit
 streamlit run dashboard/app.py
 
-# Com dados de demo (sem API rodando)
+# With demo data (no API required)
 DEMO_DATA_PATH=dashboard/data/demo_trust_scores.csv \
 streamlit run dashboard/app.py
 ```
 
 </details>
 
+<br/>
+
 ---
 
-## ☁️ Infraestrutura Cloud
+## 🤖 ML Models
+
+```mermaid
+graph TD
+    IN["📥 Feature Matrix\nraw → staging → curated\nPostgres / MinIO"] --> S & U & TS
+
+    subgraph S ["🔬 Supervised Models"]
+        LR["Logistic Regression\nbaseline & interpretability"]
+        RF["Random Forest\nrobustness + importance"]
+        XG["XGBoost\nhigh-performance ensemble"]
+    end
+
+    subgraph U ["🔎 Unsupervised / Anomaly"]
+        IF["Isolation Forest"]
+        LOF["Local Outlier Factor"]
+    end
+
+    subgraph TS ["📈 Time Series"]
+        PR["Prophet"]
+        LSTM["LSTM (optional)"]
+    end
+
+    S & U & TS --> E["🎯 Trust Score\nEnsemble + Calibration"]
+    E --> SH["📋 SHAP Explanation\n+ Feature Importance"]
+    E --> ONNX["📦 ONNX Export\nproduction inference"]
+    SH --> OUT["✅ Explainable Score\nAudit-ready"]
+    ONNX --> OUT
+
+    style S    fill:#0a1628,stroke:#42A5F5,color:#fff
+    style U    fill:#0a1628,stroke:#42A5F5,color:#fff
+    style TS   fill:#0a1628,stroke:#42A5F5,color:#fff
+    style E    fill:#001a0d,stroke:#66BB6A,color:#fff
+```
+
+**MLflow Tracking** — every training run is tracked with parameters, metrics, and artifacts. Compare model versions before promoting to production.
+
+<br/>
+
+---
+
+## 📡 Scoring API
 
 <details>
-<summary><b>🌩️ Deploy AWS com Terraform + Helm</b></summary>
+<summary><b>📋 Example · Score Request</b></summary>
 
 ```bash
-# Inicializar Terraform
+# 1. Authenticate
+curl -X POST http://localhost:8000/auth/token \
+  -d "username=analyst&password=<password>"
+
+# 2. Request trust score
+curl -X POST http://localhost:8000/v1/score \
+  -H "Authorization: Bearer <JWT_TOKEN>"    \
+  -H "Content-Type: application/json"       \
+  -d '{
+    "institution_id":  "BR_BANK_001",
+    "reference_date":  "2025-12-31"
+  }'
+```
+
+**Expected response:**
+
+```json
+{
+  "institution_id":  "BR_BANK_001",
+  "trust_score":     0.74,
+  "risk_level":      "MEDIUM",
+  "shap_top_features": [
+    { "feature": "capital_adequacy_ratio", "shap_value": 0.18 },
+    { "feature": "npl_ratio",              "shap_value": -0.12 },
+    { "feature": "liquidity_coverage",     "shap_value": 0.09 }
+  ],
+  "model_version":   "xgboost-v2.1.0-onnx",
+  "reference_date":  "2025-12-31",
+  "generated_at":    "2025-03-18T14:22:03Z"
+}
+```
+
+</details>
+
+<br/>
+
+---
+
+## ☁️ Cloud Infrastructure
+
+<details>
+<summary><b>🌩️ AWS Deploy · Terraform + Helm</b></summary>
+
+```bash
+# Initialize Terraform
 cd infra/terraform
 terraform init
 
-# Revisar plano de execução
+# Review execution plan
 terraform plan -var-file=envs/prod.tfvars
 
-# Aplicar infraestrutura
+# Apply infrastructure
 terraform apply -var-file=envs/prod.tfvars
 
-# Deploy via Helm (pós-EKS)
+# Deploy via Helm (post-EKS)
 cd ../helm
 helm upgrade --install trust-bank ./trust-bank-chart \
-  --namespace trust-bank \
+  --namespace trust-bank                              \
   --values values-prod.yaml
 ```
 
-**Recursos Provisionados:**
+**Provisioned Resources:**
 
 ```
 ╔════════════════════════════════════════════════════════════╗
-║  Recurso AWS          Módulo Terraform                     ║
+║  AWS Resource         Terraform Module                     ║
 ╠════════════════════════════════════════════════════════════╣
 ║  VPC + Subnets        modules/networking                   ║
 ║  IAM Roles/Policies   modules/iam                         ║
@@ -449,180 +562,174 @@ helm upgrade --install trust-bank ./trust-bank-chart \
 ╚════════════════════════════════════════════════════════════╝
 ```
 
-**CI/CD GitHub Actions:**
-
-```
-Push to main
-    │
-    ├── lint (flake8 · bandit · safety · secret-scan)
-    ├── test (pytest · coverage report)
-    ├── build (Docker images)
-    └── deploy (Helm → EKS) [somente em tags v*.*.*]
-```
-
 </details>
 
----
-
-## 🔒 Segurança & Compliance
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                    SECURITY FRAMEWORK                                ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  STRIDE Threat Model    Spoofing · Tampering · Repudiation           ║
-║                         Info Disclosure · DoS · Elevation           ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  Compliance             LGPD (Lei 13.709/2018)                      ║
-║                         GDPR (Regulamento UE 2016/679)              ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  Auth & Access          JWT Bearer Tokens · OAuth2 Client Creds     ║
-║                         RBAC (role-based access control)            ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  Static Analysis        bandit (Python SAST) · safety (CVE deps)   ║
-║                         flake8 · secret detector no CI              ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  AI Security            Testes de Prompt Injection em agentes       ║
-║                         Tokens read-only com escopo mínimo          ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  Audit & Observability  Audit logs imutáveis · Prometheus metrics   ║
-║                         Rastreabilidade de decisão ML               ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-> **Regras de Ouro de Segurança:**
-> - ❌ Nunca versionar segredos reais (use Secret Manager / KMS em produção)
-> - ✅ Tokens de agentes AI sempre **read-only** com escopo mínimo
-> - ✅ Agentes devem rodar **isolados** e sem permissão de escrita em produção
-> - 📄 Consulte [`SECURITY.md`](./SECURITY.md) e [`security/docs/threat_model.md`](./security/docs/threat_model.md)
-
----
-
-## 🧪 Testes & Qualidade
-
-```bash
-# Lint completo
-make lint
-
-# Suíte completa de testes
-make test
-
-# Ou individualmente
-flake8 .                          # Estilo PEP8
-bandit -r . -ll                   # Análise de segurança estática
-safety check                      # Vulnerabilidades em dependências
-pytest --cov=. --cov-report=html  # Testes com cobertura
-```
-
-**Cobertura do CI:**
+**CI/CD Pipeline:**
 
 ```mermaid
 graph LR
-    A[Push / PR] --> B[Lint]
-    B --> C[SAST Bandit]
-    C --> D[Dep Safety]
-    D --> E[Pytest]
-    E --> F[Docker Build]
+    A["⬆️ Push / PR"] --> B["🔍 Lint\nflake8"]
+    B --> C["🛡️ SAST\nBandit"]
+    C --> D["🔐 Dep Safety\nsafety check"]
+    D --> E["🧪 Pytest\n+ Coverage"]
+    E --> F["🐳 Docker\nBuild"]
     F --> G{main branch?}
-    G -->|Sim| H[Deploy EKS]
-    G -->|Não| I[✅ PR Approved]
+    G -->|Yes| H["🚀 Deploy\nHelm → EKS"]
+    G -->|No|  I["✅ PR Ready\nfor Review"]
 
-    style A fill:#1565c0,color:#fff
-    style H fill:#2e7d32,color:#fff
-    style I fill:#2e7d32,color:#fff
+    style A fill:#0a1628,stroke:#42A5F5,color:#fff
+    style H fill:#0a2e1a,stroke:#66BB6A,color:#fff
+    style I fill:#0a2e1a,stroke:#66BB6A,color:#fff
 ```
+
+<br/>
 
 ---
 
-## 🤝 Contribuição
+## 🔒 Security & Compliance
 
-Veja [`CONTRIBUTING.md`](./CONTRIBUTING.md) para o fluxo completo. Em resumo:
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                       SECURITY FRAMEWORK                             ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  STRIDE Threat Model   Spoofing · Tampering · Repudiation            ║
+║                        Info Disclosure · DoS · Elevation of Priv.   ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  Compliance            LGPD (Lei 13.709/2018)                       ║
+║                        GDPR (EU Regulation 2016/679)                ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  Auth & Access         JWT Bearer Tokens · OAuth2 Client Creds      ║
+║                        RBAC (role-based access control)             ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  Static Analysis       bandit (Python SAST) · safety (CVE deps)    ║
+║                        flake8 · secret-detector in CI               ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  AI Security           Prompt Injection testing on AI agents        ║
+║                        Read-only tokens with minimum scope          ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  Audit & Observability Immutable audit logs · Prometheus metrics    ║
+║                        Full ML decision traceability                ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+> [!IMPORTANT]
+> **Golden Security Rules:**
+> - ❌ Never commit real secrets — use Secret Manager / KMS in production
+> - ✅ AI agent tokens must always be **read-only** with minimum scope
+> - ✅ Agents must run **isolated**, with no write permissions in production
+> - 📄 See [`SECURITY.md`](./SECURITY.md) and [`security/docs/threat_model.md`](./security/docs/threat_model.md)
+
+<br/>
+
+---
+
+## 🧪 Tests & Quality
+
+```bash
+# Full lint
+make lint
+
+# Full test suite
+make test
+
+# Or individually:
+flake8 .                           # PEP8 style
+bandit -r . -ll                    # Static security analysis
+safety check                       # Dependency vulnerability scan
+pytest --cov=. --cov-report=html   # Tests with coverage report
+```
+
+<br/>
+
+---
+
+## 🤝 Contributing
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full flow. In summary:
 
 ```bash
 # 1. Fork + clone
-git clone https://github.com/SEU_USERNAME/Security-Bank-assessment.git
+git clone https://github.com/YOUR_USERNAME/Security-Bank-assessment.git
 
-# 2. Criar branch de feature
-git checkout -b feat/minha-feature
+# 2. Create feature branch
+git checkout -b feat/my-feature
 
-# 3. Desenvolver com qualidade
+# 3. Develop with quality
 make lint && make test
 
-# 4. Commit semântico
-git commit -m "feat: adicionar novo extrator de dados BACEN"
+# 4. Semantic commit
+git commit -m "feat: add new BACEN data extractor"
 
-# 5. Push e abrir Pull Request
-git push origin feat/minha-feature
+# 5. Push and open Pull Request
+git push origin feat/my-feature
 ```
 
-**Convenção de Commits:**
+**Commit Convention:**
 
-| Prefixo | Uso |
+| Prefix | Usage |
 |---|---|
-| `feat:` | Nova funcionalidade |
-| `fix:` | Correção de bug |
-| `docs:` | Documentação |
-| `refactor:` | Refatoração sem mudança de comportamento |
-| `test:` | Adição ou correção de testes |
-| `chore:` | Tarefas de manutenção |
-| `security:` | Correção ou melhoria de segurança |
+| `feat:` | New feature |
+| `fix:` | Bug fix |
+| `docs:` | Documentation |
+| `refactor:` | Refactoring without behavior change |
+| `test:` | Adding or fixing tests |
+| `chore:` | Maintenance tasks |
+| `security:` | Security fix or improvement |
+
+<br/>
 
 ---
 
-## 📋 Validação Operacional
+## 📋 Operational Validation
 
-Consulte o checklist completo em [`docs/VALIDATION_CHECKLIST.md`](./docs/VALIDATION_CHECKLIST.md) antes de qualquer deploy em produção.
+See the full checklist at [`docs/VALIDATION_CHECKLIST.md`](./docs/VALIDATION_CHECKLIST.md) before any production deployment.
 
 <details>
-<summary><b>✅ Checklist Resumido</b></summary>
+<summary><b>✅ Summary Checklist</b></summary>
 
-- [ ] `.env` configurado com segredos reais via KMS/Secret Manager
-- [ ] Modelos treinados e artefatos ONNX em `models/output/`
-- [ ] Todos os testes passando (`make test`)
-- [ ] Lint sem erros (`make lint`)
-- [ ] Terraform plan revisado e aprovado
-- [ ] Tokens de agentes com escopo read-only validado
-- [ ] Audit logs habilitados no ambiente de destino
-- [ ] LGPD/GDPR: consentimentos e políticas de retenção configurados
+- [ ] `.env` configured with real secrets via KMS / Secret Manager
+- [ ] Models trained and ONNX artifacts in `models/output/`
+- [ ] All tests passing (`make test`)
+- [ ] Lint clean (`make lint`)
+- [ ] Terraform plan reviewed and approved
+- [ ] Agent tokens validated as read-only with minimum scope
+- [ ] Audit logs enabled in target environment
+- [ ] LGPD/GDPR: consent and data retention policies configured
 
 </details>
 
+<br/>
+
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está licenciado sob a **MIT License** — veja o arquivo [`LICENSE`](./LICENSE) para detalhes.
+This project is licensed under the **MIT License** — see [`LICENSE`](./LICENSE) for details.
 
 ```
 MIT License · Copyright (c) 2025 Maykon Lincoln
-Uso comercial permitido com preservação do aviso de copyright.
+Commercial use permitted with copyright notice preservation.
 ```
 
 ---
-
-## 👤 Autor
 
 <p align="center">
   <a href="https://github.com/maykonlincolnusa">
     <img src="https://img.shields.io/badge/GitHub-maykonlincolnusa-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <img src="https://img.shields.io/badge/AWS-Solutions%20Architect-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CISSP-Certified-003087?style=for-the-badge&logo=isc2&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GCP-Data%20Engineer-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-Solutions_Architect-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CISSP-Certified-003087?style=for-the-badge&labelColor=00091a"/>
+  <img src="https://img.shields.io/badge/GCP-Data_Engineer-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/CKA-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
 </p>
 
 <p align="center">
-  <b>Senior Systems Engineer & AI Architect</b><br/>
-  Enterprise AI/ML · Cybersecurity · Cloud Infrastructure · Data Engineering
+  <b>Maykon Lincoln</b> · Senior Systems Engineer & AI Architect<br/>
+  <sub>Enterprise AI/ML · Cybersecurity · Cloud Infrastructure · Data Engineering</sub>
 </p>
 
----
+<br/>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1565c0,50:1a237e,100:0a0f2e&height=120&section=footer&text=Trust%20Bank%20System&fontSize=24&fontColor=ffffff&fontAlignY=65&animation=fadeIn" alt="Footer Wave"/>
-</p>
-
-<p align="center">
-  <sub>Built with precision · Secured by design · Compliant by default</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1565c0,40:0d2d6e,75:0a1628,100:020818&height=140&section=footer&text=Built%20with%20precision%20·%20Secured%20by%20design%20·%20Compliant%20by%20default&fontSize=14&fontColor=ffffff&fontAlignY=68&animation=fadeIn"/>
 </p>
